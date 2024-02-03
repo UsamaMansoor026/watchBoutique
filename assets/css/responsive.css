@@ -1,0 +1,72 @@
+@media screen and (max-width: 983px) {
+  .links,
+  .social__links {
+    display: none;
+  }
+
+  .links {
+    flex-direction: column;
+    margin-top: 13px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header {
+    padding: 16px 0px;
+  }
+
+  .burger__menu {
+    width: 100%;
+    padding-inline: 26px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .extra {
+    margin-block: 10px;
+    text-align: center;
+  }
+
+  #products {
+    padding-inline: 12px;
+  }
+
+  .product__card {
+    margin-block: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .name_email,
+  .number_subject {
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  .extra img {
+    width: 95%;
+  }
+
+  .under__extra,
+  .shapar {
+    padding-inline: 70px;
+  }
+
+  input,
+  textarea {
+    width: 80vw;
+    font-size: 18px;
+  }
+
+  textarea {
+    min-height: 20px !important;
+  }
+
+  ::placeholder {
+    font-size: 19px;
+  }
+}

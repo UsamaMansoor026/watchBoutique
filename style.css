@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* For Links Item */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --black: #000;
+  --light-black: #111213;
+  --white: #fff;
+  --blueish: #3f37c9;
+  --grayish: #909190;
+  ---secondary-text: #52586a;
+  --star: rgb(255, 107, 0);
+  --btn-bg: #656665;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--btn-bg);
+  border-radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
